@@ -33,10 +33,10 @@ const header = document.querySelector('.page__header');
 function addItemToNavbar() {
   for(let i=1; i <= landingContainer; i++) {
     let section = document.querySelector('#section' + i);
-    let sectionData = section.getAttribute("data-nav");
-    let sectionId = section.getAttribute("id");
-    let item    =  document.createElement("li");
-    let navLink  =  document.createElement("a");
+    let sectionData = section.getAttribute('data-nav');
+    let sectionId = section.getAttribute('id');
+    let item    =  document.createElement('li');
+    let navLink  =  document.createElement('a');
     navLink.textContent = sectionData;
     navLink.setAttribute('class', 'menu__link');
     navLink.setAttribute('href', '#' + sectionId );
@@ -50,7 +50,7 @@ function addItemToNavbar() {
 function addActiveClass() {
   sections.forEach(section => {
     let bounding = section.getBoundingClientRect();
-    let sectionId = section.getAttribute("id");
+    let sectionId = section.getAttribute('id');
     let sectionLink = document.querySelector('a[href="#' + sectionId +  '"]');
     let sectionHalfShown = section.offsetTop - (section.offsetHeight / 2);
     let sectionBehind = section.offsetTop + (section.offsetHeight / 2);
