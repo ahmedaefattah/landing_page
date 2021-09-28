@@ -18,8 +18,9 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 ## Screenshot
 
-  ![screenShot](https://github.com/ahmedaefattah/landing_page/blob/master/landing_page.png)
+  ![screenShot](https://github.com/ahmedaefattah/landing_page/blob/master/screenshot/screenshot.png)
 
+## Live Demo
 
-
+* [Landing Page Project](https://landing-page-23082020.herokuapp.com/)
 
