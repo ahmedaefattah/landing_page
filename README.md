@@ -18,7 +18,7 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 ## Screenshot
 
-  ![screenShot](https://github.com/ahmedaefattah/landing_page/blob/main/screenshot/screenshot.png)
+  ![screenShot](https://github.com/ahmedaefattah/landing_page/blob/main/screenshots/screenshot.png)
 
 ## Live Demo
 
